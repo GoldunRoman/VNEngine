@@ -4,6 +4,7 @@ using UnityEngine;
 namespace VNEngine.DS.ScriptableObjects
 {
     using ScriptableObjects;
+    
     public class DSDialogueContainerSO : ScriptableObject
     {
         [field: SerializeField] public string FileName { get; set; }
