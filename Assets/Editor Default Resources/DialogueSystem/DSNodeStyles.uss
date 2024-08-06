@@ -1,0 +1,166 @@
+/* CONTAINERS */
+
+.ds-node__extension-container
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+	padding:var(--ds-metrics-window-pixels-8);
+}
+
+.ds-node__add-choice-button-area 
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+}
+
+.ds-node__main-container
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+}
+
+.ds-node__custom-data-containers
+{
+	background-color: #212935;
+	border-radius: var(--ds-metrics-window-pixels-4);
+	padding:var(--ds-metrics-window-pixels-8);
+}
+
+/* INPUTS */
+
+.ds-node__textfield > .unity-text-field__input
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+	border-color: #27292C;
+	border-radius:var(--ds-metrics-window-pixels-4);
+	max-width:var(--ds-metrics-window-pixels-240);
+	min-width:var(--ds-metrics-window-pixels-160);
+	padding:var(--ds-metrics-window-pixels-8);
+}
+
+.ds-node__textfield__hidden > .unity-text-field__input
+{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.ds-node__textfield__hidden  > .unity-text-field__input:focus
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+	border-color: #27292C;
+}
+
+.ds-node__filename-textfield > .unity-text-field__input
+{
+	max-width:var(--ds-metrics-window-pixels-1000);
+}
+
+.ds-node__filename-textfield > .unity-text-field__input:focus
+{
+	margin: var(--ds-metrics-window-pixels-4);
+	padding: var(--ds-metrics-window-pixels-4);
+	max-width:var(--ds-metrics-window-pixels-1000);
+	min-width: var(--ds-metrics-window-pixels-0);
+}
+
+.ds-node__choice-textfield > .unity-text-field__input
+{
+	font-size:var(--ds-metrics-window-pixels-11);
+	height:var(--ds-metrics-window-pixels-35);
+	max-width:var(--ds-metrics-window-pixels-1000);
+	min-width: var(--ds-metrics-window-pixels-0);
+}
+
+.ds-node__choice-textfield> .unity-text-field__input:focus 
+{
+	height:var(--ds-metrics-window-pixels-25);
+	margin:var(--ds-metrics-window-pixels-4);
+	padding:var(--ds-metrics-window-pixels-4);
+}
+
+.ds-node__quote-textfield > .unity-text-field__input
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+	border-color: var(--ds-colors-window-dark-grey-1);
+	border-left-color: var(--ds-colors-window-dark-grey-1);
+	border-left-width:var(--ds-metrics-window-pixels-4);
+	padding:var(--ds-metrics-window-pixels-16);
+	max-width: 600px;
+}
+
+.ds-node__quote-textfield > .unity-text-field__input:hover
+{
+	background-color: var(--ds-colors-window-dark-grey-2);
+}
+
+.ds-node__quote-textfield > .unity-text-field__input:focus
+{
+	background-color: var(--ds-colors-window-dark-grey-2);
+	border-color: #384D62;
+}
+
+.ds-node__character-name-textfield > .unity-text-field__input .unity-base-text-field__input {
+    font-size: 300px;
+}
+
+.ds-node__character-name-textfield > .unity-text-field__input {
+	background-color: var(--ds-colors-window-dark-grey-1);
+	border-color: #27292C;
+	border-radius:var(--ds-metrics-window-pixels-4);
+	max-width:var(--ds-metrics-window-pixels-240);
+	min-width:var(--ds-metrics-window-pixels-160);
+	padding:var(--ds-metrics-window-pixels-8);
+}
+
+.ds-node__character-name-textfield > .unity-text-field__input:hover {
+    background-color: var(--ds-colors-window-dark-grey-2);
+}
+
+.ds-node__character-name-textfield > .unity-text-field__input:focus {
+    background-color: var(--ds-colors-window-dark-grey-2);
+    border-color: #384D62;
+}
+
+/* BUTTONS */
+
+.ds-node__button
+{
+	background-color: var(--ds-colors-window-dark-grey-1);
+	border-color: var(--ds-colors-window-dark-grey-1);
+	margin:var(--ds-metrics-window-pixels-4);
+	max-height:var(--ds-metrics-window-pixels-25);
+}
+
+.ds-node__button:hover
+{
+	background-color: var(--ds-colors-window-dark-grey-2);
+}
+
+.ds-node__button:active
+{
+	background-color: #27292C;
+	color: #FFFFFF;
+}
+
+/* ELEMENTS */
+
+TextField
+{
+	margin-left: var(--ds-metrics-window-pixels-0);
+}
+
+.ds-node__custom-data-container > Foldout
+{
+	margin-left: var(--ds-metrics-window-pixels-negative-4);
+	margin-top:var(--ds-metrics-window-pixels-4);
+}
+
+.ds-node__custom-data-container > Foldout > TextField
+{
+	margin-left: var(--ds-metrics-window-pixels-negative-12);
+	margin-top:var(--ds-metrics-window-pixels-8);
+}
+
+/* BUILT IN */
+
+.unity-toggle__text
+{
+	margin-left: 2px;
+}
